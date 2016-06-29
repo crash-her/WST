@@ -1,0 +1,145 @@
+{
+    "author": "mat.folz1@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "wst",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Weather Step Time",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_BT": 3,
+            "KEY_CONDITIONS": 1,
+            "KEY_DAY": 2,
+            "KEY_E_TIME": 6,
+            "KEY_Q_TIME": 4,
+            "KEY_S_TIME": 5,
+            "KEY_TEMPERATURE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/screenShot.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_SCREEN_SHOT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batteryDeing.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_DEAD_BATTERY",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/cloudMoon.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_CLOUD_MOON",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/moon.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_MOON",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/cloudSunny.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_PARTLY",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sunny.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_SUNNY",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/thunder.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_THUNDER",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/foggy.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_FOGGY",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rainy.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_RAINY",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/cloud.png",
+                    "memoryFormat": "8Bit",
+                    "name": "IMAGE_CLOUD",
+                    "storageFormat": "pbi",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:.A-Za-z%/]",
+                    "file": "fonts/Dyslexia12.ttf",
+                    "name": "FONT_DYSLIXIA_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:.A-Za-z%/]",
+                    "file": "fonts/Dyslexia18.ttf",
+                    "name": "FONT_DYSLIXIA_32",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:.A-Za-z%/]",
+                    "file": "fonts/Dyslexia18.ttf",
+                    "name": "FONT_DYSLIXIA_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:.A-Za-z%/]",
+                    "file": "fonts/Dyslexia18.ttf",
+                    "name": "FONT_DYSLIXIA_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "30cdea90-5ff1-4650-89ba-8b83caf122ed",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.4.0"
+}
